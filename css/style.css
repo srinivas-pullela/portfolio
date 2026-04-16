@@ -16,12 +16,14 @@ body {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: 90vh; /* instead of 100vh */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
 }
 @media (max-width: 768px) {
   .hero {
